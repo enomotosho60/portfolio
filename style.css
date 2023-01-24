@@ -1,0 +1,119 @@
+@charset "utf-8";
+.kiji h1 {
+	font-size: 40px;
+}
+.kiji p {
+	font-size: 16px;
+}
+body {
+	background-color: beige;
+	font-family: 'Zen Old Mincho', serif;
+	margin-bottom: 8em;
+}
+.gaiyou a {
+	color: #000000;
+	text-decoration: none;
+	outline: none;
+	display: block;
+}
+.gaiyou a:hover {
+	background-color: #EDEDED;
+}
+.gaiyou a:focus {
+	background-color: #EDEDED;
+}
+.gaiyou a h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.gaiyou.iconcard a span {
+	font-size: 50px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+.gaiyou.iconcard a {
+    background-color: #F1DF9F;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+    height: 250px;
+	margin-bottom: 2em;
+}
+.gaiyou.iconcard a:hover {
+	opacity: 0.8;
+}
+.gaiyou.iconcard.database a {
+    background-color: #D4DCA5;
+}
+.gaiyou.iconcard.consult a {
+    background-color: #F2D7E4;
+}
+.gaiyou.iconcard.contact a {
+    background-color: #CDEFEA;
+}
+
+@media (min-width: 1200px){
+	.container-fluid {
+    	width: 1200px;
+	}
+}
+
+h1{
+    color: green; 
+	margin-top: 5%;
+	margin-bottom: 2em;
+	text-align: center;
+}
+.title{
+	color: green; 
+	margin-top: 5%;
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 3em;
+}
+h2::before{
+    content: '';
+    display: inline-block;
+    width: .3em;
+    height: .9em;
+    margin-right: .5em;
+    background: grey;
+}
+h2{
+	text-align: center
+}
+h3{
+	text-align: center;
+}
+.introduce{
+	margin-left: 2em;
+}
+
+.profimg{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.menu{
+    text-align: center;
+    padding: 1em;
+    background-color: green;
+	font-weight: 600;
+}
+.menu:hover{
+	background-color: #77E166;
+}
+a.list:hover{
+	background-color: #77E166;
+}
+a.list{
+	color: #F7F7F7;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+</style>
